@@ -1,0 +1,32 @@
+#corp {
+    width: 80%;
+    height: auto;
+    flex: 1 1 0%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.div-nom-prenom {
+    width: 100%;
+}
+
+.small-input {
+    width: 30%;
+    height: auto;
+}
+
+#sujet, #contenu {
+    width: 75%;
+}
+
+#contenu {
+    height: 40%;
+}
+
+#champ_vide, #erreur_mail {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}

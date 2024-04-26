@@ -1,0 +1,9 @@
+#corp {
+    flex: 1 1 0%;
+    max-width: 800px; 
+    margin: auto;
+}
+.centered-image {
+    width: 40%;
+    height: auto;
+}

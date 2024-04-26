@@ -1,0 +1,69 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: auto;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.description {
+    width: 50%;
+}
+
+.commande {
+    width: 25%;
+}
+
+.compteur {
+    width: 30%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#corp {
+    flex: 1 1 0%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.cache {
+    display: none;
+}
+
+.modal {
+    flex: 1 1 0%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 700px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #f1f1f1;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
