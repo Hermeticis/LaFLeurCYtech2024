@@ -123,7 +123,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                       <div style="flex: 1;">
                           <label for="prenom">Prénom:</label>
                         <?php if(!$prenom_error){?>
-                        <input type="text" id="prenom" name="prenom" class="<?php echo $prenom_class?> small-input inputs" placeholder="entrez votre prénom" value="<?php echo htmlspecialchars($prenom); ?>"/><?php }else{ ?> <input type="text" id="prenom" name="prenom" class="small-input, inputs" placeholder="entrez votre nom" style='border : 2px solid red'/><?php } ?>
+                        <input type="text" id="prenom" name="prenom" class="small-input inputs" placeholder="entrez votre prénom" value="<?php echo htmlspecialchars($prenom); ?>"/><?php }else{ ?> <input type="text" id="prenom" name="prenom" class="small-input, inputs" placeholder="entrez votre nom" style='border : 2px solid red'/><?php } ?>
                       </div>
                   </div>
                   <br>
